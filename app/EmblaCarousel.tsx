@@ -49,7 +49,7 @@ export default function EmblaCarousel(props: PropType) {
                   <h3 className="text-2xl font-bold text-gray-900">
                     {item.title}
                   </h3>
-                  <p className="mt-4 text-lg text-gray-500">
+                  <p className="mt-4 text-base sm:text-lg text-gray-500">
                     {item.description}
                   </p>
                 </div>

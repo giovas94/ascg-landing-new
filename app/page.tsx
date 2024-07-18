@@ -15,10 +15,10 @@ import { EmblaOptionsType } from "embla-carousel";
 import EmblaCarousel from "./EmblaCarousel";
 
 const navigation = [
-  { name: "Centro MiPyme", href: "#" },
-  { name: "Formadora de héroes", href: "#" },
-  { name: "iViewer", href: "#" },
-  { name: "Contacto", href: "#" },
+  { name: "Centro MiPyme", href: "https://centromipyme.com/" },
+  { name: "Formadora de héroes", href: "https://formadoradeheroes.org/" },
+  { name: "iViewer", href: "http://ascg.uberprototech.com/login" },
+  { name: "Contacto", href: "https://www.ascg.mx/contacto/" },
 ];
 
 const posts = [
@@ -57,30 +57,6 @@ const posts = [
 ];
 
 const navigationFooter = {
-  solutions: [
-    { name: "Marketing", href: "#" },
-    { name: "Analytics", href: "#" },
-    { name: "Commerce", href: "#" },
-    { name: "Insights", href: "#" },
-  ],
-  support: [
-    { name: "Pricing", href: "#" },
-    { name: "Documentation", href: "#" },
-    { name: "Guides", href: "#" },
-    { name: "API Status", href: "#" },
-  ],
-  company: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Partners", href: "#" },
-  ],
-  legal: [
-    { name: "Claim", href: "#" },
-    { name: "Privacy", href: "#" },
-    { name: "Terms", href: "#" },
-  ],
   social: [
     {
       name: "Facebook",
@@ -305,16 +281,14 @@ export default function App() {
           aria-hidden="true"
           className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-blue-900 shadow-xl shadow-blue-600/10 ring-1 ring-blue-800 sm:-mr-80 lg:-mr-96"
         />
-        <div className="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
+        <div className="mx-auto max-w-7xl px-6 py-16 sm:py-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none lg:gap-x-16 lg:gap-y-6 flex flex-row items-end">
-            <div className="basis-1/3">
-              <img
-                alt=""
-                src="/zoho/Images/Zoho-books-home_hero.png"
-                className="w-full max-w-2xl object-cover lg:absolute lg:left-0 lg:bottom-0"
-              />
-            </div>
-            <div className="w-full flex flex-col items-end basis-2/3">
+            <img
+              alt=""
+              src="/zoho/Images/Zoho-books-home_hero.png"
+              className="w-full max-w-2xl object-cover absolute left-0 bottom-0"
+            />
+            <div className="relative w-full flex flex-col items-end basis-full">
               <div className="max-w-2xl lg:space-y-4">
                 <h1 className="text-4xl font-bold tracking-tight text-gray-100 text-right sm:text-5xl">
                   El software contable perfecto para su empresa
@@ -323,12 +297,12 @@ export default function App() {
                   Zoho Books
                 </h2>
               </div>
-              <div className="mt-6 max-w-xl lg:mt-0">
-                <div className="mt-10 flex justify-end items-center gap-x-6">
+              <div className="mt-2 max-w-xl lg:mt-0">
+                <div className="mt-4 lg:mt-10 flex justify-end items-center gap-x-6">
                   <img
                     alt=""
                     src="/zoho/Logo/Zoho+ASCG.png"
-                    className="w-full max-w-sm object-contain"
+                    className="w-2/3 lg:w-full max-w-sm object-contain"
                   />
                 </div>
               </div>
